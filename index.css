@@ -49,6 +49,7 @@
 .navbar-togglers:hover {
   text-decoration: none;
 }
+
 .navbar-togglers:focus {
   text-decoration: none;
   outline: 0;
@@ -80,10 +81,11 @@
 .btn-con:hover {
     background-color: #fdfcdd;
 }
-@media (max-width: 768px) 
+@media (max-width: 768px) {
     .btn-con {
         display: none;
     }
+}
 
 /*End of navbar*/
 
