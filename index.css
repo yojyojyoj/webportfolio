@@ -1,0 +1,276 @@
+/*Navbar*/
+.navbar-style{
+  background-color: #424c55;
+  padding: 0.5rem;
+}
+.nav-links {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-links {
+    transition: none;
+    }
+}
+.nav-links:hover, .nav-links:focus {
+  color: goldenrod;
+}
+
+.nav-font{
+  font-family: "Sen", sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.nav-font-list{
+   font-family: "Sen", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-togglers {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #78a0a8;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-togglers {
+    transition: none;
+  }
+}
+.navbar-togglers:hover {
+  text-decoration: none;
+}
+.navbar-togglers:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem;
+}
+
+.navbar-toggler-icons {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  color: #124354;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.btn-con {
+    background-color: #fdfcdd;
+    color: black; 
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btn-con:hover {
+    background-color: #fdfcdd;
+}
+@media (max-width: 768px) 
+    .btn-con {
+        display: none;
+    }
+
+/*End of navbar*/
+
+/*Landing*/
+#landing{
+  background-color: #78a0a8;
+}
+
+#landing h1{
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fdfcdd;
+}
+
+#landing p{
+  font-family: "Sen", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fdfcdd;
+}
+
+#landing span{
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color:#424c55;
+}
+
+.landing-pic{
+  object-fit: cover;
+}
+
+.btn-me{
+  background-color: #78a0a8;
+    color: #fdfcdd; 
+    border: 2px solid #fdfcdd;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/*End of Landing*/
+
+/*Projects*/
+#projects{
+  background-color: #fdfcdd;
+}
+
+.project-img{
+ width: 300px;
+ border-radius: 1.5rem;
+}
+
+#projects h1{
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #424c55;
+  margin: 0;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 23px rgb(0, 0, 0, 0.25);
+    background-color: #78a0a8;
+    border-radius: 3rem;
+}
+/*End of Projects*/
+
+
+/*Tools*/
+#tools{
+  background-color: #78a0a8;
+}
+
+.tools-img{
+	width: 5rem;
+}
+
+#tools h1{
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fdfcdd;
+}
+
+#tools p{
+  font-family: "Sen", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fdfcdd;
+}
+
+#tools span{
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color:#424c55;
+}
+
+/*End of tools*/
+
+/*Contact*/
+#contact{
+  background-color: #fdfcdd;
+}
+
+.g-maps{
+ width: 600px;
+ height: 450px;
+ border: 2px solid #424c55;
+ border-radius: 10px;
+}
+
+.message{
+    font-family: "Sen"; /* Ensure the correct font-family */
+    font-size: 24px !important; /* Adjusted to match Figma Mockup */
+    color: #424c55;
+    margin-bottom: 24px !important;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+}
+
+.contact-form h2 {
+    font-size: 40px !important;
+    margin-top: 0;
+    color: #78a0a8;
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+}
+
+.contact-form p {
+    font-family: "Sen", sans-serif; /* Ensure the correct font-family */
+    font-size: 24px !important; /* Adjusted to match Figma Mockup */
+    color: #424c55;
+    margin-bottom: 24px !important;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #424c55;
+    font-family: "sen" !important , sans-serif; 
+    font-weight: 600 !important;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #78a0a8 !important;
+    font-family: "Sen" !important , sans-serif;
+    font-weight: 600;
+}
+
+#base{
+    display: inline;
+    border: 1px solid #78a0a8;
+    border-radius: 1.5rem;
+    background-color: #78a0a8;
+    color: white;
+    align-content: end;
+}
+
+/*End of contact*/
+
+
+#footer {
+    font-family: "Sen", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    background-color: #424c55;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+ 
